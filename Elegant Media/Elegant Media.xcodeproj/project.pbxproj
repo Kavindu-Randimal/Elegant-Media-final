@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF41443E294B0B3500780611 /* Elegant_MediaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF41443D294B0B3500780611 /* Elegant_MediaApp.swift */; };
+		DF414442294B0B3700780611 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF414441294B0B3700780611 /* Assets.xcassets */; };
+		DF414445294B0B3700780611 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF414444294B0B3700780611 /* Preview Assets.xcassets */; };
+		DF41444D294B0B7700780611 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF41444C294B0B7700780611 /* LoginView.swift */; };
+		DF41444F294B0BA400780611 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF41444E294B0BA400780611 /* ListView.swift */; };
+		DF414451294B0BD600780611 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF414450294B0BD600780611 /* DetailsView.swift */; };
+		DF414453294B0BF500780611 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF414452294B0BF500780611 /* MapView.swift */; };
+		DF414455294B0C2000780611 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF414454294B0C2000780611 /* Authentication.swift */; };
+		DF414458294B0C9300780611 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF414457294B0C9300780611 /* Network.swift */; };
+		DF41445A294B0CB500780611 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF414459294B0CB500780611 /* Credentials.swift */; };
+		DF41445D294B0CFC00780611 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF41445C294B0CFC00780611 /* LoginViewModel.swift */; };
+		DF414460294B0D6E00780611 /* HotelAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF41445F294B0D6E00780611 /* HotelAPI.swift */; };
+		DF414462294B0D9600780611 /* LoginApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF414461294B0D9600780611 /* LoginApi.swift */; };
+		DF414464294B0E0C00780611 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF414463294B0E0C00780611 /* UIApplication+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF41443A294B0B3500780611 /* Elegant Media.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Elegant Media.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF41443D294B0B3500780611 /* Elegant_MediaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elegant_MediaApp.swift; sourceTree = "<group>"; };
+		DF414441294B0B3700780611 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF414444294B0B3700780611 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF41444C294B0B7700780611 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		DF41444E294B0BA400780611 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		DF414450294B0BD600780611 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		DF414452294B0BF500780611 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		DF414454294B0C2000780611 /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		DF414457294B0C9300780611 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		DF414459294B0CB500780611 /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		DF41445C294B0CFC00780611 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		DF41445F294B0D6E00780611 /* HotelAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelAPI.swift; sourceTree = "<group>"; };
+		DF414461294B0D9600780611 /* LoginApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginApi.swift; sourceTree = "<group>"; };
+		DF414463294B0E0C00780611 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF414437294B0B3500780611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF414431294B0B3500780611 = {
+			isa = PBXGroup;
+			children = (
+				DF41443C294B0B3500780611 /* Elegant Media */,
+				DF41443B294B0B3500780611 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF41443B294B0B3500780611 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF41443A294B0B3500780611 /* Elegant Media.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF41443C294B0B3500780611 /* Elegant Media */ = {
+			isa = PBXGroup;
+			children = (
+				DF414454294B0C2000780611 /* Authentication.swift */,
+				DF41443D294B0B3500780611 /* Elegant_MediaApp.swift */,
+				DF41445E294B0D4300780611 /* Services */,
+				DF414456294B0C8000780611 /* Model */,
+				DF41444B294B0B5600780611 /* Views */,
+				DF41445B294B0CE200780611 /* ViewModel */,
+				DF414441294B0B3700780611 /* Assets.xcassets */,
+				DF414443294B0B3700780611 /* Preview Content */,
+			);
+			path = "Elegant Media";
+			sourceTree = "<group>";
+		};
+		DF414443294B0B3700780611 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DF414444294B0B3700780611 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DF41444B294B0B5600780611 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DF41444C294B0B7700780611 /* LoginView.swift */,
+				DF41444E294B0BA400780611 /* ListView.swift */,
+				DF414450294B0BD600780611 /* DetailsView.swift */,
+				DF414452294B0BF500780611 /* MapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DF414456294B0C8000780611 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DF414457294B0C9300780611 /* Network.swift */,
+				DF414459294B0CB500780611 /* Credentials.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DF41445B294B0CE200780611 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DF41445C294B0CFC00780611 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DF41445E294B0D4300780611 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DF41445F294B0D6E00780611 /* HotelAPI.swift */,
+				DF414461294B0D9600780611 /* LoginApi.swift */,
+				DF414463294B0E0C00780611 /* UIApplication+Extension.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF414439294B0B3500780611 /* Elegant Media */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF414448294B0B3700780611 /* Build configuration list for PBXNativeTarget "Elegant Media" */;
+			buildPhases = (
+				DF414436294B0B3500780611 /* Sources */,
+				DF414437294B0B3500780611 /* Frameworks */,
+				DF414438294B0B3500780611 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Elegant Media";
+			productName = "Elegant Media";
+			productReference = DF41443A294B0B3500780611 /* Elegant Media.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF414432294B0B3500780611 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					DF414439294B0B3500780611 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = DF414435294B0B3500780611 /* Build configuration list for PBXProject "Elegant Media" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF414431294B0B3500780611;
+			productRefGroup = DF41443B294B0B3500780611 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF414439294B0B3500780611 /* Elegant Media */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF414438294B0B3500780611 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF414445294B0B3700780611 /* Preview Assets.xcassets in Resources */,
+				DF414442294B0B3700780611 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF414436294B0B3500780611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF414455294B0C2000780611 /* Authentication.swift in Sources */,
+				DF41444F294B0BA400780611 /* ListView.swift in Sources */,
+				DF414458294B0C9300780611 /* Network.swift in Sources */,
+				DF41445A294B0CB500780611 /* Credentials.swift in Sources */,
+				DF414462294B0D9600780611 /* LoginApi.swift in Sources */,
+				DF414453294B0BF500780611 /* MapView.swift in Sources */,
+				DF414451294B0BD600780611 /* DetailsView.swift in Sources */,
+				DF41444D294B0B7700780611 /* LoginView.swift in Sources */,
+				DF41445D294B0CFC00780611 /* LoginViewModel.swift in Sources */,
+				DF414460294B0D6E00780611 /* HotelAPI.swift in Sources */,
+				DF41443E294B0B3500780611 /* Elegant_MediaApp.swift in Sources */,
+				DF414464294B0E0C00780611 /* UIApplication+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DF414446294B0B3700780611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF414447294B0B3700780611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF414449294B0B3700780611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Elegant Media/Preview Content\"";
+				DEVELOPMENT_TEAM = 48689QGL3Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kavindu-Randimal.Elegant-Media";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF41444A294B0B3700780611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Elegant Media/Preview Content\"";
+				DEVELOPMENT_TEAM = 48689QGL3Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kavindu-Randimal.Elegant-Media";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF414435294B0B3500780611 /* Build configuration list for PBXProject "Elegant Media" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF414446294B0B3700780611 /* Debug */,
+				DF414447294B0B3700780611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF414448294B0B3700780611 /* Build configuration list for PBXNativeTarget "Elegant Media" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF414449294B0B3700780611 /* Debug */,
+				DF41444A294B0B3700780611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF414432294B0B3500780611 /* Project object */;
+}
